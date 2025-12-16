@@ -5,6 +5,7 @@
   --border-color: #262626;
   --accent-yellow: #ccff00;
   --accent-purple: #d980ff;
+  --accent-green: #ccff00;
   --text-main: #ffffff;
   --text-muted: #dcdcdc;
   --text-dim: #999999;
@@ -374,6 +375,14 @@ button {
 }
 .text-purple {
   color: var(--accent-purple);
+}
+
+.text-green {
+  color: var(--accent-green);
+}
+
+.bold-text.text-green {
+  color: var(--accent-green);
 }
 
 /* --- HERO SECTION --- */
