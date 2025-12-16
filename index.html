@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIALA@design - UX Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body>
+    <!-- Custom Cursor Elements -->
+    <div id="cursor-dot" class="cursor-dot"></div>
+    <div id="cursor-ring" class="cursor-ring"></div>
+
+    <div class="app-wrapper">
+      <!-- HERO SECTION -->
+      <section class="hero-section">
+        <!-- Gradients -->
+        <div class="hero-gradient"></div>
+
+        <!-- Glows -->
+        <div class="hero-glow-yellow"></div>
+        <div class="hero-glow-purple"></div>
+
+        <!-- Grid Lines -->
+        <div class="hero-grid">
+          <div class="grid-line"></div>
+          <div class="grid-line"></div>
+          <div class="grid-line"></div>
+          <div class="grid-line"></div>
+          <div class="grid-line"></div>
+          <div class="grid-line"></div>
+          <div class="grid-line"></div>
+          <div class="grid-line"></div>
+          <div class="grid-line"></div>
+          <div class="grid-line"></div>
+          <div class="grid-line"></div>
+          <div class="grid-line"></div>
+          <div class="grid-line"></div>
+        </div>
+
+        <!-- Content -->
+        <div class="hero-content">
+          <div id="hero-logo" class="will-change-transform">
+            <img
+              src="svg/hero-logo.svg"
+              alt="FIALA@design Logo"
+              class="hero-logo-svg"
+            />
+          </div>
+
+          <div class="hero-text-wrapper">
+            <div
+              id="hero-title"
+              class="hero-title-container will-change-transform"
+            >
+              <h1 class="hero-title">
+                <span>FIALA</span>
+                <span class="at-symbol">@</span>
+                <span>design</span>
+              </h1>
+            </div>
+            <div class="hero-subtitle-container">
+              <p class="hero-subtitle">UX DESIGNER</p>
+            </div>
+          </div>
+
+          <!-- Scroll Indicator -->
+          <div class="scroll-indicator">
+            <div class="scroll-text">
+              <span>SCROLL</span>
+            </div>
+            <div class="scroll-line-container">
+              <div class="scroll-line"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="section-padding section-base">
+        <div class="container">
+          <!-- Section Badge -->
+          <div class="about-header">
+            <div class="badge">
+              <span class="text-yellow">01. OSOBNÍ INFO</span>
+            </div>
+          </div>
+
+          <!-- Cards Grid -->
+          <div class="about-grid">
+            <!-- Bold & Disruptive Card -->
+            <div class="card card-bold">
+              <div class="card-corner bg-white"></div>
+              <div class="card-label">
+                <span>INFO</span>
+              </div>
+              <div class="card-content">
+                <div class="flex-col-gap-1">
+                  <div class="flex-wrap-gap-0">
+                    <h2 class="bold-text">Bold</h2>
+                    <span class="bold-text text-yellow mt-neg-6">&</span>
+                    <h2 class="bold-text w-full">Disruptive.</h2>
+                  </div>
+                  <p class="card-desc max-w-484">
+                    UX designer s vášní pro experimentální přístupy. Věřím v
+                    design, který narušuje konvence a vytváří nezapomenutelné
+                    zážitky.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quote Card -->
+            <div class="card card-quote">
+              <div class="card-corner bg-neon"></div>
+              <div class="card-content">
+                <h3 class="text-yellow font-mono-18 mb-075rem">
+                  → Zkušenost. Kreativita. Vliv.
+                </h3>
+                <h3 class="font-grotesk-20-white">
+                  "Design za hranicemi šablon."
+                </h3>
+              </div>
+            </div>
+
+            <!-- Představení Card -->
+            <div class="card card-intro">
+              <div class="card-corner bg-purple"></div>
+              <div class="card-label">
+                <span class="text-purple">PŘEDSTAVENÍ</span>
+              </div>
+              <div class="card-content">
+                <p class="card-desc max-w-436 font-sans-16">
+                  Ahoj! Jsem UX designer, který spojuje umění s funkčností. Moje
+                  práce balancuje mezi odvážnou kreativitou a praktickými
+                  řešeními, která skutečně fungují.
+                </p>
+              </div>
+            </div>
+
+            <!-- Kořeny Card -->
+            <div class="card card-roots">
+              <div class="card-corner bg-neon"></div>
+              <div class="card-label">
+                <span class="text-neon">KOŘENY</span>
+              </div>
+              <div class="card-content">
+                <p class="card-desc max-w-339">
+                  Má cesta začala kódem. Roky jako práce developera (HTML, CSS,
+                  JavaScript, PHP, Java, C#) mi daly technické know-how a
+                  pochopení, co je reálně proveditelné, a kde už může také začít
+                  dobrý UX design.
+                </p>
+              </div>
+            </div>
+
+            <!-- Přechod Card -->
+            <div class="card card-transition">
+              <div class="card-corner bg-yellow"></div>
+              <div class="card-label">
+                <span class="text-yellow">PŘECHOD</span>
+              </div>
+              <div class="card-content">
+                <p class="card-desc max-w-339">
+                  Postupně jsem objevil, že mě víc baví navrhovat než
+                  programovat. UX design mi dal prostor být kreativnější, ale
+                  přitom využít technické zkušenosti.
+                </p>
+              </div>
+            </div>
+
+            <!-- Dnes Card -->
+            <div class="card card-today">
+              <div class="card-corner bg-purple"></div>
+              <div class="card-label">
+                <span class="text-purple">DNES</span>
+              </div>
+              <div class="card-content">
+                <div class="flex-col-gap-12">
+                  <h3 class="font-grotesk-16-white">
+                    Artistic yet Functional.
+                  </h3>
+                  <p class="card-desc max-w-339">
+                    Dnes tvořím digitální zážitky, které jsou odvážné, ale
+                    fungují. Kombinace programátorského myšlení a designérské
+                    kreativity je moje konkurenční výhoda.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Role Card -->
+            <div class="card card-role">
+              <div class="p-0">
+                <div class="role-container">
+                  <span class="font-mono-10-muted">ROLE</span>
+                  <span class="font-grotesk-16-white">UX DESIGNER</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section class="section-padding section-base">
+        <div class="container">
+          <header class="skills-header">
+            <div class="skills-badge badge">
+              <span class="text-purple">02. HARD SKILLS</span>
+            </div>
+            <h2 class="h2-title">EXPERTISE</h2>
+            <p class="section-subtitle">Visual display</p>
+          </header>
+
+          <div class="mb-74px">
+            <!-- Row 1 -->
+            <div class="skills-row">
+              <!-- Figma -->
+              <div class="skill-card w-302 mt-lg-32">
+                <div class="skill-card-header">
+                  <div class="skill-dot"></div>
+                </div>
+                <div class="skill-body">
+                  <div class="skill-meta">
+                    <p class="skill-type">Design Tools</p>
+                    <span class="skill-percent">95%</span>
+                  </div>
+                  <h3 class="skill-name">Figma</h3>
+                  <div class="skill-bar-container">
+                    <div class="skill-bar-bg">
+                      <div class="skill-bar-fill w-95"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-line"></div>
+              </div>
+
+              <!-- Adobe -->
+              <div class="skill-card w-411 mt-lg-0 hidden">
+                <div class="skill-card-header">
+                  <div class="skill-dot"></div>
+                </div>
+                <div class="skill-body">
+                  <div class="skill-meta">
+                    <p class="skill-type">Design Tools</p>
+                    <span class="skill-percent">85%</span>
+                  </div>
+                  <h3 class="skill-name">Adobe Creative Cloud</h3>
+                  <div class="skill-bar-container">
+                    <div class="skill-bar-bg">
+                      <div class="skill-bar-fill w-85"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-line"></div>
+              </div>
+
+              <!-- Prototyping -->
+              <div class="skill-card w-302 mt-lg-64">
+                <div class="skill-card-header">
+                  <div class="skill-dot"></div>
+                </div>
+                <div class="skill-body">
+                  <div class="skill-meta">
+                    <p class="skill-type">UX Process</p>
+                    <span class="skill-percent">90%</span>
+                  </div>
+                  <h3 class="skill-name">Prototyping</h3>
+                  <div class="skill-bar-container">
+                    <div class="skill-bar-bg">
+                      <div class="skill-bar-fill w-90"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-line"></div>
+              </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="skills-row">
+              <!-- User Research -->
+              <div class="skill-card w-302 mt-lg-48">
+                <div class="skill-card-header">
+                  <div class="skill-dot"></div>
+                </div>
+                <div class="skill-body">
+                  <div class="skill-meta">
+                    <p class="skill-type">UX Process</p>
+                    <span class="skill-percent">88%</span>
+                  </div>
+                  <h3 class="skill-name">User Research</h3>
+                  <div class="skill-bar-container">
+                    <div class="skill-bar-bg">
+                      <div class="skill-bar-fill w-88"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-line"></div>
+              </div>
+
+              <!-- Wireframing -->
+              <div class="skill-card w-302 mt-lg-16">
+                <div class="skill-card-header">
+                  <div class="skill-dot"></div>
+                </div>
+                <div class="skill-body">
+                  <div class="skill-meta">
+                    <p class="skill-type">UX Process</p>
+                    <span class="skill-percent">92%</span>
+                  </div>
+                  <h3 class="skill-name">Wireframing</h3>
+                  <div class="skill-bar-container">
+                    <div class="skill-bar-bg">
+                      <div class="skill-bar-fill w-92"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-line"></div>
+              </div>
+
+              <!-- UI Design -->
+              <div class="skill-card w-193 mt-lg-80">
+                <div class="skill-card-header">
+                  <div class="skill-dot"></div>
+                </div>
+                <div class="skill-body">
+                  <div class="skill-meta">
+                    <p class="skill-type">Design</p>
+                    <span class="skill-percent">94%</span>
+                  </div>
+                  <h3 class="skill-name">UI Design</h3>
+                  <div class="skill-bar-container">
+                    <div class="skill-bar-bg">
+                      <div class="skill-bar-fill w-94"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-line"></div>
+              </div>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="skills-row">
+              <!-- Typography -->
+              <div class="skill-card w-411 mt-lg-24 hidden">
+                <div class="skill-card-header">
+                  <div class="skill-dot"></div>
+                </div>
+                <div class="skill-body">
+                  <div class="skill-meta">
+                    <p class="skill-type">Design</p>
+                    <span class="skill-percent">89%</span>
+                  </div>
+                  <h3 class="skill-name">Typography</h3>
+                  <div class="skill-bar-container">
+                    <div class="skill-bar-bg">
+                      <div class="skill-bar-fill w-89"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-line"></div>
+              </div>
+
+              <!-- HTML/CSS -->
+              <div class="skill-card w-411 mt-lg-56 hidden">
+                <div class="skill-card-header">
+                  <div class="skill-dot"></div>
+                </div>
+                <div class="skill-body">
+                  <div class="skill-meta">
+                    <p class="skill-type">Development</p>
+                    <span class="skill-percent">82%</span>
+                  </div>
+                  <h3 class="skill-name">HTML/CSS</h3>
+                  <div class="skill-bar-container">
+                    <div class="skill-bar-bg">
+                      <div class="skill-bar-fill w-82"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-line"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stats -->
+          <div class="stats-grid">
+            <!-- Stat 1 -->
+            <div class="stat-card stat-yellow">
+              <h3 class="stat-number text-yellow">10+</h3>
+              <p class="stat-label">LET ZKUŠENOSTÍ</p>
+            </div>
+            <!-- Stat 2 -->
+            <div class="stat-card stat-purple">
+              <h3 class="stat-number text-purple">50+</h3>
+              <p class="stat-label">DOKONČENÝCH PROJEKTŮ</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE SECTION -->
+      <section class="section-padding section-base">
+        <div class="container">
+          <header class="skills-header">
+            <div class="skills-badge badge">
+              <span class="text-yellow">03. PŘEHLED</span>
+            </div>
+            <h2 class="h2-title">KOMU JSME POMOHLI</h2>
+            <p class="section-subtitle">Timeline</p>
+          </header>
+
+          <div class="timeline-container">
+            <!-- Vertical Line -->
+            <div class="timeline-line"></div>
+
+            <div class="flex-col-gap-075">
+              <!-- Item 1 -->
+              <div class="experience-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-connector"></div>
+                <div class="exp-card">
+                  <div class="exp-content">
+                    <div class="exp-details">
+                      <h3 class="exp-role">UX Designer</h3>
+                      <p class="exp-company">Mládež pro Krista, z. s.</p>
+                      <p class="exp-desc">
+                        Spolupráce na design systému, brand guideline, design
+                        webových stránek a propagačních materiálů.
+                      </p>
+                      <div class="tags-container">
+                        <span class="tag">Design Systems</span>
+                        <span class="tag">User Research</span>
+                        <span class="tag">Prototyping</span>
+                      </div>
+                    </div>
+                    <div class="exp-logo-container">
+                      <div class="exp-logo-wrapper">
+                        <img
+                          src="image/mpk-1.png"
+                          alt="Logo"
+                          class="exp-logo-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="experience-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-connector"></div>
+                <div class="exp-card">
+                  <div class="exp-content">
+                    <div class="exp-details">
+                      <h3 class="exp-role">UX Designer</h3>
+                      <p class="exp-company">Karlova Univerzita</p>
+                      <p class="exp-desc">
+                        Spolupráce na vytváření design systému a prototypování
+                        studijního informačního systému UK. User research a
+                        UX/UI design intranetu.
+                      </p>
+                      <div class="tags-container">
+                        <span class="tag">Design system</span>
+                        <span class="tag">Prototyping</span>
+                        <span class="tag">UX research</span>
+                      </div>
+                    </div>
+                    <div class="exp-logo-container">
+                      <div class="exp-logo-wrapper">
+                        <img
+                          src="image/uk.png"
+                          alt="Logo"
+                          class="exp-logo-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="experience-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-connector"></div>
+                <div class="exp-card">
+                  <div class="exp-content">
+                    <div class="exp-details">
+                      <h3 class="exp-role">UX/UI Researcher/Designer</h3>
+                      <p class="exp-company">FIT VUT v Brně</p>
+                      <p class="exp-desc">
+                        Návrh UX frameworku pro vývoj aplikací pro uživatele se
+                        speciálními vzdělávacími potřebami dle vedené víceleté
+                        UX studie podložené praxí . Jde o evidence-based UX
+                        přístup, který ukazuje, že skutečný UX pro zranitelné
+                        skupiny začíná už v architektuře systému, ne jen v barvě
+                        tlačítka.
+                      </p>
+                      <div class="tags-container">
+                        <span class="tag">Wireframing</span>
+                        <span class="tag">Visual Design</span>
+                        <span class="tag">Usability testing</span>
+                        <span class="tag">Mobile Apps</span>
+                        <span class="tag">A/B Testing</span>
+                        <span class="tag">Xamarin</span>
+                      </div>
+                      <a href="pdf/MentallyChallengedDesignPrinciples.pdf">
+                        <button class="btn-download">
+                          <img
+                            src="svg/download.svg"
+                            alt="Download Icon"
+                            class="mr-05rem"
+                          />
+                          <span>Stáhnout publikaci (PDF)</span>
+                        </button>
+                      </a>
+                    </div>
+                    <div class="exp-logo-container">
+                      <div class="exp-logo-wrapper">
+                        <img
+                          src="image/fit.png"
+                          alt="Logo"
+                          class="exp-logo-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 4 -->
+              <div class="experience-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-connector"></div>
+                <div class="exp-card">
+                  <div class="exp-content">
+                    <div class="exp-details">
+                      <h3 class="exp-role">
+                        User research / Image processing engineering
+                      </h3>
+                      <p class="exp-company">VUT v Brně</p>
+                      <p class="exp-desc">
+                        Spolupráce na návrhu biometrického zařízení pro snímání
+                        a rozpoznávání žil prstů lidské ruky a jeho testování s
+                        uživateli.
+                      </p>
+                      <div class="tags-container">
+                        <span class="tag">Image Processing</span>
+                        <span class="tag">Usability Testing</span>
+                        <span class="tag">Patent</span>
+                      </div>
+                    </div>
+                    <div class="exp-logo-container">
+                      <div class="exp-logo-wrapper">
+                        <img
+                          src="image/vut.png"
+                          alt="Logo"
+                          class="exp-logo-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 5 -->
+              <div class="experience-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-connector"></div>
+                <div class="exp-card">
+                  <div class="exp-content">
+                    <div class="exp-details">
+                      <h3 class="exp-role">Frontend Developer</h3>
+                      <p class="exp-company">VŠB Ostrava | IT4Innovatios</p>
+                      <p class="exp-desc">
+                        Spolupráce na návrhu a vývoji aplikace pro řízení
+                        dopravních systémů a jejjí vizualizace v reálném čase.
+                      </p>
+                      <div class="tags-container">
+                        <span class="tag">Html</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">ASP.NET Razor</span>
+                        <span class="tag">UI Implementation</span>
+                      </div>
+                    </div>
+                    <div class="exp-logo-container">
+                      <div class="exp-logo-wrapper">
+                        <img
+                          src="image/it4.png"
+                          alt="Logo"
+                          class="exp-logo-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 6 -->
+              <div class="experience-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-connector"></div>
+                <div class="exp-card">
+                  <div class="exp-content">
+                    <div class="exp-details">
+                      <h3 class="exp-role">Frontend Developer</h3>
+                      <p class="exp-company">FSI VUT v Brně</p>
+                      <p class="exp-desc">
+                        Spolupráce na návrhu a vývoji UI pro aplikaci pro
+                        simulaci spalovacího procesu tvořených pipeline
+                        spalovacích bloků.
+                      </p>
+                      <div class="tags-container">
+                        <span class="tag">Java Swing</span>
+                        <span class="tag">Performance</span>
+                      </div>
+                    </div>
+                    <div class="exp-logo-container">
+                      <div class="exp-logo-wrapper">
+                        <img
+                          src="image/fsi.png"
+                          alt="Logo"
+                          class="exp-logo-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-footer-line"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section class="section-padding section-base pb-0">
+        <div class="container">
+          <div class="mb-2rem mt-neg-2rem">
+            <div class="badge">
+              <span class="text-purple">04. PORTFOLIO</span>
+            </div>
+          </div>
+
+          <div class="projects-header-container">
+            <div class="flex-col-gap-05 pt-1rem">
+              <h2 class="h2-title">SELECTED WORK</h2>
+              <p class="section-subtitle">Case studies</p>
+            </div>
+            <div class="section-subtitle text-yellow">5 PROJECTS</div>
+          </div>
+
+          <div class="projects-layout">
+            <!-- Project 1 -->
+            <div class="project-card-item proj-1">
+              <div class="proj-inner">
+                <div class="proj-bg-img"></div>
+                <div class="card-corner bg-purple"></div>
+
+                <div class="proj-overlay">
+                  <h3 class="proj-title">Event Gallery</h3>
+                  <p class="proj-desc">Interaktivní galerie událostí.</p>
+                </div>
+              </div>
+
+              <div class="proj-number-box">
+                <span class="proj-number">01</span>
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card-item proj-2">
+              <div class="proj-inner">
+                <div class="proj-bg-img"></div>
+                <div class="card-corner bg-purple"></div>
+
+                <div class="proj-overlay">
+                  <h3 class="proj-title">Cesta Srdce Může</h3>
+                  <p class="proj-desc">
+                    Webová prezentace pro osobní růst muže.
+                  </p>
+                </div>
+              </div>
+
+              <div class="proj-number-box">
+                <span class="proj-number">02</span>
+              </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card-item proj-3">
+              <div class="proj-inner">
+                <div class="proj-bg-img"></div>
+                <div class="card-corner bg-purple"></div>
+
+                <div class="proj-overlay">
+                  <h3 class="proj-title">Chráníme Naše Lesy</h3>
+                  <p class="proj-desc">
+                    Webová prezentace pro chranu lesů a přírody.
+                  </p>
+                </div>
+              </div>
+
+              <div class="proj-number-box">
+                <span class="proj-number">03</span>
+              </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card-item proj-4">
+              <div class="proj-inner">
+                <div class="proj-bg-img"></div>
+                <div class="card-corner bg-purple"></div>
+
+                <div class="proj-overlay">
+                  <h3 class="proj-title">Orange Apps</h3>
+                  <p class="proj-desc">
+                    Mobilní apka pro správu událostí uživatelů se speciálními
+                    vzdělávacími potřebami.
+                  </p>
+                </div>
+              </div>
+
+              <div class="proj-number-box">
+                <span class="proj-number">04</span>
+              </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card-item proj-5">
+              <div class="proj-inner">
+                <div class="proj-bg-img"></div>
+                <div class="card-corner bg-purple"></div>
+
+                <div class="proj-overlay">
+                  <h3 class="proj-title">Siemens</h3>
+                  <p class="proj-desc">
+                    Webová apka pro Siemens k dálkové správě čidel v tunelech.
+                  </p>
+                </div>
+              </div>
+
+              <div class="proj-number-box">
+                <span class="proj-number">05</span>
+              </div>
+            </div>
+
+            <a href="#main-cta" class="btn-more-info">
+              <span>VÍCE INFO</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section class="section-padding section-base pb-5rem">
+        <div class="container">
+          <div class="mb-2rem">
+            <div class="badge">
+              <span class="text-yellow">05. KONTAKT</span>
+            </div>
+          </div>
+
+          <div class="contact-layout">
+            <!-- Straplines Card -->
+            <div class="straplines-card">
+              <div class="straplines-header">
+                <span class="font-mono-10-muted">STRAPLINES</span>
+              </div>
+              <div class="straplines-content">
+                <h2 class="quote-main">"Design za hranicemi šablon."</h2>
+                <div class="flex-wrap-gap-05">
+                  <img
+                    src="svg/strapline.svg"
+                    alt="Icon"
+                    width="16"
+                    height="16"
+                  />
+                  <span class="quote-sub"> Zkušenost. Kreativita. Vliv. </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Main CTA Card -->
+            <div id="main-cta" class="cta-card">
+              <div class="cta-badge">
+                <span>MAIN CTA</span>
+              </div>
+              <div class="cta-circle"></div>
+
+              <div class="cta-body">
+                <h2 class="cta-title">KONTAKT</h2>
+                <div class="flex-align-start">
+                  <a href="mailto:design@fiala.in" class="cta-button">
+                    <div class="flex-align-center-gap-075">
+                      <img
+                        src="svg/mail.svg"
+                        alt="Mail Icon"
+                        width="18"
+                        height="18"
+                      />
+                      <span class="font-sans-18-bold"> design@fiala.in </span>
+                    </div>
+                    <img
+                      src="svg/arrow-right.svg"
+                      alt="Arrow Right"
+                      width="18"
+                      height="18"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CV Download Card -->
+
+          <div class="cv-card mt-1p5rem">
+            <a href="pdf/CV_Jiri_Fiala Design.pdf" download>
+              <div class="p-25px flex-between-center">
+                <div class="flex-col-gap-14">
+                  <span class="font-mono-10-muted">SECONDARY (CV)</span>
+                  <span class="font-sans-12-white">Stažení CV v PDF</span>
+                </div>
+                <img
+                  src="svg/download.svg"
+                  alt="Download"
+                  width="24"
+                  height="24"
+                />
+              </div>
+            </a>
+          </div>
+
+          <!-- Info Cards Grid -->
+          <div class="contact-info-grid">
+            <div class="info-card">
+              <div class="flex-col-gap-075">
+                <span class="font-mono-10-dim">DOSTUPNOST</span>
+                <h3>Otevřen novým projektům</h3>
+                <div class="flex-align-center-gap-05">
+                  <div class="status-dot"></div>
+                  <span class="text-yellow font-mono-12">AVAILABLE</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="flex-col-gap-075">
+                <span class="font-mono-10-dim">LOKACE</span>
+                <h3>Pardubický kraj, Česká republika</h3>
+                <span class="font-sans-14-muted">Remote friendly</span>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="flex-col-gap-075">
+                <span class="font-mono-10-dim">ODEZVA</span>
+                <h3>Obvykle do 24 hodin</h3>
+                <span class="font-sans-14-muted">Po-Pá 9:00-18:00</span>
+              </div>
+            </div>
+          </div>
+
+          <footer class="footer">
+            <span class="footer-text"
+              >© 2024 FIALA@design. All rights reserved.</span
+            >
+          </footer>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
